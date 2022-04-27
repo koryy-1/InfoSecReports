@@ -1,0 +1,54 @@
+﻿@page
+@model PrivacyModel
+@{
+    ViewData["Title"] = "Admin";
+}
+<h2>Панель администартора</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <center><a asp-page="/Events/Index" class="btn btn-secondary">Мероприятия</a></center>
+            </th>
+            <th>
+                <center><a asp-page="/Flaws/Index" class="btn btn-secondary">Недостатки</a></center>
+            </th>
+            <th>
+                <center><a asp-page="/Categories/Index" class="btn btn-secondary">Категории</a></center>
+            </th>
+            <th>
+                <center><a asp-page="/Scripts/Index" class="btn btn-secondary">Сценарии</a></center>
+            </th>
+            <th>
+                <center><a asp-page="/Recomendations/Index" class="btn btn-secondary">Рекомендации</a></center>
+            </th>
+            <th>
+                <center><a asp-page="/Members/Index" class="btn btn-secondary">Участники</a></center>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <center>@Model.EventsCount</center>
+            </td>
+            <td>
+                <center>@Model.FlawsCount</center>
+            </td>
+            <td>
+                <center>@Model.CategoriesCount</center>
+            </td>
+            <td>
+                <center>@Model.ScriptsCount</center>
+            </td>
+            <td>
+                <center>@Model.RecomendationsCount</center>
+            </td>
+            <td>
+                <center>@Model.MembersCount</center>
+            </td>
+        </tr>
+    </tbody>
+</table>    
+

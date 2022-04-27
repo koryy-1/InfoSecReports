@@ -1,0 +1,44 @@
+﻿@page
+@model InfoSecReports.Pages.WorkingGroups.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Добавить:</h1>
+
+<h4>Состав рабочей группы</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label>Имя организации</label>
+                <input asp-for="WorkingGroup.NameOfСompany" value="@Model.NameOfCompany" class="form-control" readonly/>
+                <span asp-validation-for="WorkingGroup.NameOfСompany" class="text-danger"></span>
+            </div>   
+            <div class="form-group">
+                <label>ФИО участника</label>
+                <select asp-for="WorkingGroup.Member" class="form-select" aria-label="Выберите участника" required>
+                    @{
+                        foreach (var item in Model.Member)
+                        {
+                            <option value=@item.Name>@Html.DisplayFor(modelItem => item.Name)</option>
+                        }
+                    }
+                </select>
+                <span asp-validation-for="WorkingGroup.Member" class="text-danger"></span>
+                <br/><a class="btn btn-secondary" asp-page="/Members/Create">Добавить участника</a>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Добавить" class="btn btn-primary" />
+            </div>
+            <a class="btn btn-secondary" onclick="history.go(-2);"><font color="white">Назад</font></a>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

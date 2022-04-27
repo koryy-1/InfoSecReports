@@ -1,0 +1,59 @@
+﻿@page
+@model InfoSecReports.Pages.Flaws.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Недостатки</h1>
+
+<p>
+    <a asp-page="Create">Создать</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+               Имя
+            </th>
+            <th>
+                Содержние
+            </th>
+            <th>
+                Коэффициент значимости
+            </th>
+            <th>
+                Категория
+            </th>
+            <th>
+                Рекомендация
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Flaw) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Content)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ImportanceFactor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RecomindationID)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Name">Редактировать</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Name">Удалить</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

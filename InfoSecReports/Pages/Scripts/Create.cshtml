@@ -1,0 +1,35 @@
+﻿@page
+@model InfoSecReports.Pages.Scripts.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Создать:</h1>
+
+<h4>Сценарий</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label>Имя</label>
+                <input asp-for="Script.Name" class="form-control" required/>
+                <span asp-validation-for="Script.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Содержание</label>
+                <input asp-for="Script.Content" class="form-control" />
+                <span asp-validation-for="Script.Content" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Создать" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

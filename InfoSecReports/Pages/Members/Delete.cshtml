@@ -1,0 +1,13 @@
+﻿@page
+@model InfoSecReports.Pages.Members.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h3>Подтвердите удаление</h3><br>
+ 
+<form method="post">
+    <input type="hidden" asp-for="Member.Name" />
+    <input type="submit" value="Удалить" class="btn btn-danger" /> |
+</form>

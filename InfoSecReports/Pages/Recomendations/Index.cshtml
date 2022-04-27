@@ -1,0 +1,53 @@
+﻿@page
+@model InfoSecReports.Pages.Recomendations.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Рекомендации</h1>
+
+<p>
+    <a asp-page="Create">Создать</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Имя
+            </th>
+            <th>
+                Описание
+            </th>
+            <th>
+                Уровень
+            </th>
+            <th>
+                Категория
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Recomendation) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Level)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryName)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-Name="@item.Name">Редактировать</a> |
+                <a asp-page="./Delete" asp-route-Name="@item.Name">Удвлить</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

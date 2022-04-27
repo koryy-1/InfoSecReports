@@ -1,0 +1,33 @@
+﻿@page
+@model InfoSecReports.Pages.Members.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Участники</h1>
+
+<p>
+    <a asp-page="Create">Создать</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <label>ФИО</label>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Member) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                <a asp-page="./Delete" asp-route-id="@item.Name">Удалить</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

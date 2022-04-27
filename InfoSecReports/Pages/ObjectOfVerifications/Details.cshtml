@@ -1,0 +1,83 @@
+﻿@page
+@model InfoSecReports.Pages.ObjectOfVerifications.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="row">
+    <div class="col">
+        <h1>@Html.DisplayFor(model => model.ObjectOfVerification.Name)</h1>
+        <h4>@Html.DisplayFor(model => model.ObjectOfVerification.Description)</h4>
+    </div>
+    <div class="col">
+        <label>Кол-во мероприятий по защите: @Model.EventsCount</label>
+        <br />
+        <label>Кол-во надостатков: @Model.FlawsCount</label>
+        <br />
+        <label>Кол-во участников рабочей группы: @Model.PeopleCount</label>
+    </div>
+
+    
+</div>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            Адрес
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ObjectOfVerification.Adress)
+        </dd>
+        <dt class="col-sm-2">
+            Описание
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ObjectOfVerification.Description)
+        </dd>
+        <dt class="col-sm-2">
+            Дата начала
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ObjectOfVerification.DateOfStart)
+        </dd>
+        <dt class="col-sm-2">
+            Дата окончания
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ObjectOfVerification.DateOfEnd)
+        </dd>
+        <dt class="col-sm-2">
+            Примечания
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ObjectOfVerification.Notes)
+        </dd>
+    </dl>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-5">
+            <h5>Мероприятия по защите</h5>
+            @foreach (var item in Model.Events)
+            {
+                <p><label>–&nbsp;</label>@item</p>
+            }
+        </div>
+         <div class="col-5">
+            <h5>Недостатки в защите</h5>
+            @foreach (var item in Model.Flaws)
+            {
+                <p><label>–&nbsp;</label>@item</p>
+            }
+        </div>
+    </div>
+    
+</div>
+
+<div>
+    <a class="btn btn-secondary" asp-page="./Index">Назад</a>
+    <a class="btn btn-primary" asp-page"/Details" asp-route-id="@Model.NameOfCompany" asp-route-post="true">Создать отчет</a>
+    <a class="btn btn-primary" asp-page"/Details" asp-route-id="@Model.NameOfCompany" asp-route-isdownload="true"><font color="white">Скачать отчет</font></a>
+</div>

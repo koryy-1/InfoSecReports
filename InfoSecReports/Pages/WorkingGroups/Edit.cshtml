@@ -1,0 +1,36 @@
+﻿@page
+@model InfoSecReports.Pages.WorkingGroups.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Редактировать:</h1>
+
+<h4>Состав рабочей группы</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="WorkingGroup.Id" />
+            <div class="form-group">
+                <label>Имя организации</label>
+                <input asp-for="WorkingGroup.NameOfСompany" class="form-control"/>
+                <span asp-validation-for="WorkingGroup.NameOfСompany" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Имя участника</label>
+                <input asp-for="WorkingGroup.Member" class="form-control" />
+                <span asp-validation-for="WorkingGroup.Member" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Обновить" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

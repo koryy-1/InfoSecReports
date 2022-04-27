@@ -1,0 +1,40 @@
+﻿@page
+@model InfoSecReports.Pages.ObjectOfVerifications.ReportModel
+@{
+}
+<form method="post">
+<div class="btn-group">
+        @foreach (var item in Model.Category)
+        {
+            <div class="col-5">
+                <a href="#" data-toggle="dropdown" class="btn btn-secondary dropdown-toggle">@item.Name<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <div class="form-check">
+                            @foreach (var m in Model.Event)
+                            {
+                                if (item.Name == m.CategoryName)
+                                {
+                                    <input name="Events" class="form-check-input" type="checkbox" value="@m.Name" >
+                                    @m.Name <br /> 
+                                }                             
+                            }
+                            @foreach (var m in Model.Flaw)
+                            {
+                                if (item.Name == m.CategoryName)
+                                {
+                                    <input name="Flaws" class="form-check-input" type="checkbox" value="@m.Name" >
+                                    @m.Name <br /> 
+                                }
+                            }
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        }
+    
+    <div class="form-check">
+        <input type="submit" value="Сохранить" asp-route-id="@Model.NameOfCompany" asp-page-handler="Submit" class="btn btn-primary" />
+    </div>
+</div>
+</form>

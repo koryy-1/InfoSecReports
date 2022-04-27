@@ -1,0 +1,312 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = InfoSecReports
+build_property.RootNamespace = InfoSecReports
+build_property.ProjectDir = C:\progs\webs\InfoSecReports\InfoSecReports\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\progs\webs\InfoSecReports\InfoSecReports
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/Achievements/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNoaWV2ZW1lbnRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/Achievements/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNoaWV2ZW1lbnRzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/Achievements/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNoaWV2ZW1lbnRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/Achievements/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNoaWV2ZW1lbnRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/Achievements/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNoaWV2ZW1lbnRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/Categories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/Categories/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmllc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/Categories/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmllc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/Categories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/Categories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/EventOfObjects/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRPZk9iamVjdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/EventOfObjects/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRPZk9iamVjdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/EventOfObjects/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRPZk9iamVjdHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/EventOfObjects/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRPZk9iamVjdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/EventOfObjects/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRPZk9iamVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/Events/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/Events/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/Events/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/Events/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/Events/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/FlawOfObjects/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmxhd09mT2JqZWN0c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/FlawOfObjects/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmxhd09mT2JqZWN0c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/FlawOfObjects/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmxhd09mT2JqZWN0c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/FlawOfObjects/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmxhd09mT2JqZWN0c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/FlawOfObjects/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmxhd09mT2JqZWN0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/Flaws/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmxhd3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/Flaws/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmxhd3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/Flaws/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmxhd3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/Flaws/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmxhd3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/Flaws/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmxhd3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/Members/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVtYmVyc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/Members/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVtYmVyc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/Members/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVtYmVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/ObjectOfVerifications/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2JqZWN0T2ZWZXJpZmljYXRpb25zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/ObjectOfVerifications/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2JqZWN0T2ZWZXJpZmljYXRpb25zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/ObjectOfVerifications/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2JqZWN0T2ZWZXJpZmljYXRpb25zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/ObjectOfVerifications/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2JqZWN0T2ZWZXJpZmljYXRpb25zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/ObjectOfVerifications/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2JqZWN0T2ZWZXJpZmljYXRpb25zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/ObjectOfVerifications/Report.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2JqZWN0T2ZWZXJpZmljYXRpb25zXFJlcG9ydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/Recomendations/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjb21lbmRhdGlvbnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/Recomendations/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjb21lbmRhdGlvbnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/Recomendations/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjb21lbmRhdGlvbnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/Recomendations/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjb21lbmRhdGlvbnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/Recomendations/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjb21lbmRhdGlvbnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/ScriptOfObjects/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2NyaXB0T2ZPYmplY3RzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/ScriptOfObjects/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2NyaXB0T2ZPYmplY3RzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/ScriptOfObjects/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2NyaXB0T2ZPYmplY3RzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/ScriptOfObjects/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2NyaXB0T2ZPYmplY3RzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/ScriptOfObjects/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2NyaXB0T2ZPYmplY3RzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/Scripts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2NyaXB0c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/Scripts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2NyaXB0c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/Scripts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2NyaXB0c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/Scripts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2NyaXB0c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/Scripts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2NyaXB0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/WorkingGroups/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV29ya2luZ0dyb3Vwc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/WorkingGroups/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV29ya2luZ0dyb3Vwc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/WorkingGroups/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV29ya2luZ0dyb3Vwc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/WorkingGroups/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV29ya2luZ0dyb3Vwc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/WorkingGroups/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV29ya2luZ0dyb3Vwc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/progs/webs/InfoSecReports/InfoSecReports/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

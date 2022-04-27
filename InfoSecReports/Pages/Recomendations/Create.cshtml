@@ -1,0 +1,54 @@
+﻿@page
+@model InfoSecReports.Pages.Recomendations.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Создать:</h1>
+
+<h4>Рекомендацию</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label>Имя</label>
+                <input asp-for="Recomendation.Name" class="form-control" required/>
+                <span asp-validation-for="Recomendation.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Описание</label>
+                <input asp-for="Recomendation.Description" class="form-control" />
+                <span asp-validation-for="Recomendation.Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Уровень</label>
+                <input asp-for="Recomendation.Level" class="form-control" />
+                <span asp-validation-for="Recomendation.Level" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Категория</label>
+                <select asp-for="Recomendation.CategoryName" class="form-select" aria-label="Выберите категорию" required>
+                    @{
+                        foreach (var item in Model.Category)
+                        {
+                            <option value=@item.Name>@Html.DisplayFor(modelItem => item.Name)</option>
+                        }
+                    }
+                </select>
+                <span asp-validation-for="Recomendation.CategoryName" class="text-danger"></span>
+                <br/><a class="btn btn-secondary" asp-page="/Categories/Create">Добавить категорию</a>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Создать" class="btn btn-primary" />
+            </div>
+            <a class="btn btn-secondary" onclick="history.go(-2);"><font color="white">Назад</font></a>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,55 @@
+﻿@page
+@model InfoSecReports.Pages.Achievements.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Achievement</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Achievement.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Achievement.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Achievement.Description)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Achievement.Description)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Achievement.NodeAdress)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Achievement.NodeAdress)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Achievement.AuthData)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Achievement.AuthData)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Achievement.Path)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Achievement.Path)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Achievement.NameOfСompany)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Achievement.NameOfСompany)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Achievement.Id">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

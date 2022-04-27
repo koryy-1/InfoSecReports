@@ -1,0 +1,30 @@
+﻿@page
+@model InfoSecReports.Pages.ObjectOfVerifications.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+<div class="text-center">
+    <h1 class="display-4">Объекты</h1>
+</div>
+
+<div>
+    <a class="btn btn-success m-3"  asp-page="Create">Cоздать</a>
+</div>
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    @foreach (var item in Model.ObjectOfVerification)
+    {
+        <div class="col m-3">
+            <div class="card text-white bg-dark mb-3" style="width: 24rem;">
+                <div class="card-body">
+                    <h5 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h5>
+                    <p class="card-text">@Html.DisplayFor(modelItem => item.Description)</p>
+                    <a class="btn btn-secondary" asp-page="./Edit" asp-route-id="@item.Name">Редактировать</a>
+                    <a class="btn btn-secondary" asp-page="./Details" asp-route-id="@item.Name">Просмотр</a>
+                    <a class="btn btn-secondary" asp-page="./Delete" asp-route-id="@item.Name">Удалить</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

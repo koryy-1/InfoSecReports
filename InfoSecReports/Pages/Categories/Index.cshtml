@@ -1,0 +1,39 @@
+﻿@page
+@model InfoSecReports.Pages.Categories.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Категории</h1>
+
+<p>
+    <a asp-page="Create">Создать</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <label>Имя категории</label>
+            </th>
+            <th>
+                <label>Описание категории</label>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Category) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Content)
+            </td>
+            <td>
+                <a asp-page="./Delete" asp-route-id="@item.Name">Удалить</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

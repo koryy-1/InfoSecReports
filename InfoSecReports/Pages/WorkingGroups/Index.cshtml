@@ -1,0 +1,41 @@
+﻿@page
+@model InfoSecReports.Pages.WorkingGroups.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Рабочая группа</h1>
+
+<p>
+    <a asp-page="Create">Создать</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+               Имя организации
+            </th>
+            <th>
+                Имя учасника
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.WorkingGroup) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NameOfСompany)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Member)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Редактировать</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Удалить</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

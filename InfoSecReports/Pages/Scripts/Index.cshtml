@@ -1,0 +1,41 @@
+﻿@page
+@model InfoSecReports.Pages.Scripts.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Сценарии</h1>
+
+<p>
+    <a asp-page="Create">Создать</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Имя
+            </th>
+            <th>
+                Содержание
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Script) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Content)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-Name="@item.Name">Редактировать</a> |
+                <a asp-page="./Delete" asp-route-Name="@item.Name">Удалить</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

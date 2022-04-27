@@ -1,0 +1,67 @@
+﻿@page
+@model InfoSecReports.Pages.Flaws.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Создать:</h1>
+
+<h4>Недостаток</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label>Имя недостатка</label>
+                <input asp-for="Flaw.Name" class="form-control" required/>
+                <span asp-validation-for="Flaw.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Содержание</label>
+                <input asp-for="Flaw.Content" class="form-control" />
+                <span asp-validation-for="Flaw.Content" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Коэффицент значимости</label>
+                <input asp-for="Flaw.ImportanceFactor" class="form-control" />
+                <span asp-validation-for="Flaw.ImportanceFactor" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Категория</label>
+                <select asp-for="Flaw.CategoryName" class="form-select" aria-label="Выберите категорию" required>
+                    @{
+                        foreach (var item in Model.Category)
+                        {
+                            <option value=@item.Name>@Html.DisplayFor(modelItem => item.Name)</option>
+                        }
+                    }
+                </select>
+                <span asp-validation-for="Flaw.CategoryName" class="text-danger"></span>
+                <br/><a class="btn btn-secondary" asp-page="/Categories/Create">Добавить категорию</a>
+            </div>
+            <div class="form-group">
+                <label>Рекомендация</label>
+                <select asp-for="Flaw.RecomindationID" class="form-select" aria-label="Выберите рекомендацию" required>
+                    @{
+                        foreach (var item in Model.Recomendation)
+                        {
+                            <option value=@item.Name>@Html.DisplayFor(modelItem => item.Name)</option>
+                        }
+                    }
+                </select>
+                <span asp-validation-for="Flaw.RecomindationID" class="text-danger"></span>
+                <br/><a class="btn btn-secondary" asp-page="/Recomendations/Create">Добавить рекомендацию</a>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Создать" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
