@@ -1,5 +1,5 @@
-/.vscode
-/bin
-/obj
+/InfoSecReports/.vscode
+/InfoSecReports/bin
+/InfoSecReports/obj
 /.vs
 *.doc
